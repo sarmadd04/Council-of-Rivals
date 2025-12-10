@@ -1,0 +1,35 @@
+# --- Python Basics ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual Environments ---
+env/
+ENV/
+venv/
+VENV/
+.venv/
+.ENV/
+*.venv/
+*env/
+
+# (Catches ANY environment folder containing 'env' or 'venv')
+
+# --- Large Data & Models ---
+db/
+chroma_db_data/
+*.pkl
+*.bin
+*.gguf
+models/
+datasets/
+checkpoints/
+outputs/
+artifacts/
+
+# --- Editors & OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
